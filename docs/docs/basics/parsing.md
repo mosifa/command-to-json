@@ -1,22 +1,4 @@
-# command-to-json
-
-Parses any commands and converts them to JSON.
-
-## Table of Contents
-
-- [command-to-json](#command-to-json)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Supported commands](#supported-commands)
-  - [Release notes](#release-notes)
-
-## Installation
-
-```sh
-npm install command-to-json --save
-```
-
-## Usage
+# Parsing commands
 
 ```ts
 import { ifConfig } from 'command-to-json';
@@ -45,12 +27,3 @@ const result = ifConfig.parse(output);
  */
 
 ```
-
-## Supported commands
-[if-config](https://en.wikipedia.org/wiki/Ifconfig)
-
-## Release notes
-
-See information about breaking changes and release notes [here][1].
-
-[1]: CHANGELOG.md
