@@ -1,0 +1,7 @@
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+    inet 172.0.0.1  netmask 255.255.0.0  broadcast 172.0.0.255
+    ether 01:01:01:01:01:01  txqueuelen 0  (Ethernet)
+    RX packets 0  bytes 0 (0.0 B)
+    RX errors 0  dropped 0  overruns 0  frame 0
+    TX packets 0  bytes 0 (0.0 B)
+    TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
