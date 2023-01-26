@@ -1,7 +1,7 @@
 # command-to-json
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca8c18cbe64e4811b602754cc0b44edd)](https://www.codacy.com/gh/mosifa/command-to-json/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mosifa/command-to-json&amp;utm_campaign=Badge_Grade)
-[![GitHub version](https://badge.fury.io/gh/mosifa%2Fcommand-to-json.svg)](https://badge.fury.io/gh/mosifa%2Fcommand-to-json)
+[![npm version](https://badge.fury.io/js/command-to-json.svg)](https://badge.fury.io/js/command-to-json)
 
 Parses any commands and converts them to JSON.
 
