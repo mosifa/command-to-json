@@ -45,7 +45,7 @@ class IFConfigParser implements Base {
 
   private readonly decimalFlagsRegex = /(\d+)(?=\<)/;
   private readonly statusFlagsRegex = /(?<=[<|,])([A-Z]+)/g;
-  private readonly mtuRegex =  /(?<=\s+)\d+/g;
+  private readonly mtuRegex = /(?<=\s+)\d+/g;
 
   /**
    * Parses given result of "if-config" command.
@@ -64,7 +64,7 @@ class IFConfigParser implements Base {
         }
       }
       return netInterface;
-    })
+    });
     return parsed;
   }
 

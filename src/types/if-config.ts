@@ -1,3 +1,3 @@
 export type NetInterfaceBlock = {
-  [key: string]: Array<string|number> | string | number;
-}
+  [key: string]: Array<string | number> | string | number;
+};
